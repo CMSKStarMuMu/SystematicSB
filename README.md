@@ -24,5 +24,5 @@ it creates
 ```
 ```
 ./readSideband savesb_[era]_b[# of bin].root
-- read the sb model and produce a plot with the angular projections of the  model 
+- reads the sb model and produces a plot with the angular projections of the  model 
 ```
