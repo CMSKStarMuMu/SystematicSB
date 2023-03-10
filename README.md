@@ -10,3 +10,10 @@ Clone this branch in the working directory:
 git clone -b master git@github.com:CMSKStarMuMu/SystematicSB.git
 cd SystematicSB
 ```
+to compile
+```
+make
+```
+```
+generateSideband
+```
