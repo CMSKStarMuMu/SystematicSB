@@ -14,6 +14,15 @@ to compile
 ```
 make
 ```
+programs:
 ```
-generateSideband
+./generateSideband savesb_[era]_b[# of bin].root
+it creates 
+- a directory  GenBin[# of bin]_[era] 
+- generates 100 toys using the sb model found in  savesb_[era]_b[# of bin].root and it save them in the direcory GenBin[# of bin]_[era]
+- save histograms and canvas in this file: generate-savesb_[era]_b[# of bin].root
+```
+```
+./readSideband savesb_[era]_b[# of bin].root
+- read the sb model and produce a plot with the angular projections of the  model 
 ```
